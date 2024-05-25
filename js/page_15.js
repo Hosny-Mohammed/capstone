@@ -1,5 +1,5 @@
 document.querySelector('.back-icon').addEventListener('click', () => {
-    alert('Back button clicked!');
+    window.location.assign("page_14.html");
 });
 
 document.querySelectorAll('.option-item').forEach((item, index) => {
