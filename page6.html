@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Name</title>
+    <link rel="stylesheet" href="./styles/pagecs6.css">
+</head>
+<body>
+    <div class="container">
+        <div class="back-arrow">&larr;</div>
+        <h1>What's Your Name?!</h1>
+        <div class="name-inputs">
+            <input type="text" placeholder="First">
+            <input type="text" placeholder="Last">
+        </div>
+        <select class="disability-select">
+            <option>Select Disability</option>
+            <option>Visual disability</option>
+            <option>Hearing disability</option>
+            <option>mental handicap</option>
+            <option>Physical and mobility disability</option>
+        </select>
+        <button class="next-button" onclick="navigate()">Next</button>
+    </div>
+</body>
+<script>
+    function navigate(){
+        window.location.assign("page_13.html")
+    }
+</script>
+</html>

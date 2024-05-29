@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #007BFF;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+.button .arrows {
+    align-self: flex-start; /* تحديد موقع الأسهم في الجزء العلوي من العنصر الأم */
+}
+
+
+.title {
+    background: linear-gradient(to right, #5596FF, #6C5DD3);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    left: -70px; /* تحديد المسافة من اليسار */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button .arrows {
+    order: -1; /* تحديد ترتيب الأسهم ليكون أولاً */
+}
+
+
+.arrows span {
+    color: white;
+    font-size: 24px;
+    transform: rotate(180deg); /* This rotates the arrows to point right */
+}
+
+.button {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button svg {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.button.primary {
+    background: linear-gradient(to right, #5596FF, #6C5DD3);
+    color: white;
+    margin-top: 40px;
+}
+
+.check-circle {
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.arrow {
+    font-size: 24px;
+    margin-left: 10px;
+    color: white;
+}
+

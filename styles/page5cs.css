@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.back-arrow {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.phone-number {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.code-inputs input {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #333;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.resend-code {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

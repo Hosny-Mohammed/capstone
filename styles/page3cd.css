@@ -1,0 +1,31 @@
+body {
+    background-color: #007BFF; /* Background color of the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-button {
+    background: linear-gradient(135deg, #4f9cff, #654de4); /* Gradient background for the button */
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gradient-button:hover {
+    transform: scale(1.05); /* Slightly increase the button size on hover */
+}
